@@ -63,21 +63,6 @@ export const skills = [
         type: "Database",
     },
     {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
         imageUrl: nodejs,
         name: "Node.js",
         type: "Backend",
@@ -87,11 +72,11 @@ export const skills = [
         name: "React",
         type: "Frontend",
     },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
+    // {
+    //     imageUrl: redux,
+    //     name: "Redux",
+    //     type: "State Management",
+    // },
     {
         imageUrl: sass,
         name: "Sass",
@@ -102,11 +87,11 @@ export const skills = [
         name: "Tailwind CSS",
         type: "Frontend",
     },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    }
+    // {
+    //     imageUrl: typescript,
+    //     name: "TypeScript",
+    //     type: "Frontend",
+    // }
 ];
 
 export const experiences = [
@@ -183,13 +168,13 @@ export const socialLinks = [
 ];
 
 export const projects = [
-    {
-        iconUrl: pricewise,
-        theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
-    },
+    // {
+    //     iconUrl: pricewise,
+    //     theme: 'btn-back-red',
+    //     name: 'Amazon Price Tracker',
+    //     description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
+    //     link: 'https://github.com/adrianhajdin/pricewise',
+    // },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
@@ -197,21 +182,35 @@ export const projects = [
         description: 'In essence, Collegium offers a campus-focused marketplace, making it easier for students to meet their requirements or sell unwanted goods to fellow students in a safe and convenient manner.',
         link: 'https://github.com/Uzumaki-tushar/collegium',
     },
+    {
+        iconUrl: threads,
+        theme: 'btn-back-green',
+        name: 'JobPortal:Ongoing',
+        description: '"A full-stack job portal connecting employers and job seekers with seamless listings and applications."',
+        link: 'https://github.com/Uzumaki-tushar/jobPortal',
+    },
+    {
+        iconUrl: threads,
+        theme: 'btn-back-green',
+        name: 'Codeil:Ongoing',
+        description: '"A full-stack social media platform for connecting, sharing, and engaging with others."',
+        link: 'https://github.com/Uzumaki-tushar/Codeil',
+    },
     
     {
-        iconUrl: estate,
-        theme: 'btn-back-black',
+        iconUrl: threads,
+        theme: 'btn-back-green',
         name: 'Petfinder: Front-End',
         description: 'PetFinder is a platform for buying, selling, and adopting pets, connecting users with potential buyers.',
         link: 'https://github.com/Tushar-sourav/Petfinder_project',
     },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'Daibeties Predictor',
-        description: 'Diabetes Predictor is a model that forecasts the likelihood of diabetes based on user data.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+    // {
+    //     iconUrl: summiz,
+    //     theme: 'btn-back-yellow',
+    //     name: 'Daibeties Predictor',
+    //     description: 'Diabetes Predictor is a model that forecasts the likelihood of diabetes based on user data.',
+    //     link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+    // }
 ];
 
 export const currently_learning=[
