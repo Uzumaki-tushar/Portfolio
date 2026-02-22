@@ -168,13 +168,13 @@ export const socialLinks = [
 ];
 
 export const projects = [
-    // {
-    //     iconUrl: pricewise,
-    //     theme: 'btn-back-red',
-    //     name: 'Amazon Price Tracker',
-    //     description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-    //     link: 'https://github.com/adrianhajdin/pricewise',
-    // },
+    {
+        iconUrl:threads,
+        theme: 'btn-back-green',
+        name: 'Auto-Commit-System',
+        description: 'Auto-Commit-Bot is a specialized automation utility designed to manage and maintain repository activity through programmed commit cycles. It solves the challenge of maintaining a consistent contribution presence by automating the local file modification and remote push process. Engineered for reliability, the bot ensures that repository metrics reflect active development patterns without requiring manual daily intervention.',
+        link:'https://github.com/Uzumaki-tushar/auto-commit-bot'
+    },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
@@ -183,11 +183,12 @@ export const projects = [
         link: 'https://github.com/Uzumaki-tushar/collegium',
     },
     {
-        iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'JobPortal:Ongoing',
-        description: '"A full-stack job portal connecting employers and job seekers with seamless listings and applications."',
-        link: 'https://github.com/Uzumaki-tushar/jobPortal',
+        iconUrl:threads,
+        theme:'btn-back-green',
+        name:'Journal-App',
+        description:'Journal-App is a production-ready backend service designed for secure, personal content management. It addresses the critical need for data privacy in digital journaling by implementing a sophisticated multi-tier security architecture. Engineered with Spring Boot, the application provides a scalable RESTful API that ensures seamless data persistence while maintaining strict user-level isolation and encrypted access control.',
+        link:'https://github.com/Uzumaki-tushar/Journal-App'
+
     },
     {
         iconUrl: threads,
@@ -204,13 +205,14 @@ export const projects = [
         description: 'PetFinder is a platform for buying, selling, and adopting pets, connecting users with potential buyers.',
         link: 'https://github.com/Tushar-sourav/Petfinder_project',
     },
-    // {
-    //     iconUrl: summiz,
-    //     theme: 'btn-back-yellow',
-    //     name: 'Daibeties Predictor',
-    //     description: 'Diabetes Predictor is a model that forecasts the likelihood of diabetes based on user data.',
-    //     link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    // }
+    {
+        iconUrl: summiz,
+        theme: 'btn-back-yellow',
+        name: 'Daibeties Predictor',
+        description: 'Diabetes Predictor is a model that forecasts the likelihood of diabetes based on user data.',
+        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+    }
+   
 ];
 
 export const currently_learning=[
