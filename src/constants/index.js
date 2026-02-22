@@ -1,4 +1,11 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
+import docker from "../assets/icons/docker-icon.svg";
+import python from "../assets/icons/python-programming-language-icon.svg";
+import java from "../assets/icons/java-svgrepo-com.svg";
+import ollama from "../assets/icons/ai-mi-algorithm-svgrepo-com.svg";
+import springboot from "../assets/icons/spring-boot-svgrepo-com.svg";
+import fastapi from "../assets/icons/fastapi-svgrepo-com.svg"
+
 import {
     car,
     contact,
@@ -24,6 +31,8 @@ import {
     tailwindcss,
     threads,
     typescript,
+    // --- Added for your professional & AI skills ---
+    
 } from "../assets/icons";
 
 export const skills = [
@@ -72,11 +81,6 @@ export const skills = [
         name: "React",
         type: "Frontend",
     },
-    // {
-    //     imageUrl: redux,
-    //     name: "Redux",
-    //     type: "State Management",
-    // },
     {
         imageUrl: sass,
         name: "Sass",
@@ -87,11 +91,37 @@ export const skills = [
         name: "Tailwind CSS",
         type: "Frontend",
     },
-    // {
-    //     imageUrl: typescript,
-    //     name: "TypeScript",
-    //     type: "Frontend",
-    // }
+    // --- Newly Added Skills ---
+    {
+        imageUrl: python,
+        name: "Python",
+        type: "Backend / AI",
+    },
+    {
+        imageUrl: java,
+        name: "Java",
+        type: "Backend",
+    },
+    {
+        imageUrl: springboot,
+        name: "Spring Boot",
+        type: "Backend",
+    },
+    {
+        imageUrl: fastapi,
+        name: "FastAPI",
+        type: "Backend",
+    },
+    {
+        imageUrl: ollama,
+        name: "Ollama",
+        type: "Artificial Intelligence",
+    },
+    {
+        imageUrl: docker,
+        name: "Docker",
+        type: "DevOps",
+    },
 ];
 
 export const experiences = [
@@ -190,13 +220,6 @@ export const projects = [
         link:'https://github.com/Uzumaki-tushar/Journal-App'
 
     },
-    {
-        iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'Codeil:Ongoing',
-        description: '"A full-stack social media platform for connecting, sharing, and engaging with others."',
-        link: 'https://github.com/Uzumaki-tushar/Codeil',
-    },
     
     {
         iconUrl: threads,
@@ -236,23 +259,5 @@ export const currently_learning=[
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
-    {
-        title: "Cloud Computing",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Java Developement",
-        
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+    
 ]
